@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<gdml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://service-spi.web.cern.ch/service-spi/app/releases/GDML/schema/gdml.xsd">
+
+    <define>
+    </define>
+
+    <solids>
+        <tessellated aunit="deg" lunit="mm" name="To_GDML4_Brass-SOL">
+        </tessellated>
+    </solids>
+
+    <structure>
+        <volume name="To_GDML4_Brass">
+            <materialref ref="Brass"/>
+            <solidref ref="To_GDML4_Brass-SOL"/>
+        </volume>
+    </structure>
+
+    <setup name="Default" version="1.0">
+        <world ref="To_GDML4_Brass"/>
+    </setup>
+</gdml>
