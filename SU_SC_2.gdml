@@ -1,0 +1,367 @@
+<?xml version='1.0' encoding='us-ascii'?>
+<gdml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://service-spi.web.cern.ch/service-spi/app/releases/GDML/schema/gdml.xsd">
+  <define>
+    <constant name="HALFPI" value="pi/2." />
+  <constant name="PI" value="1.*pi" />
+  <constant name="TWOPI" value="2.*pi" />
+  <position name="LV_Tube001_0" unit="mm" x="622.2999877929688" y="-1.5241954020531884e-13" z="314.32501220703125" />
+  <position name="LV_Tube001_1" unit="mm" x="622.2999877929688" y="-1.5241954020531884e-13" z="1.2573000192642212" />
+  <position name="LV_Tube001_2" unit="mm" x="489.6272888183594" y="-384.08648681640625" z="356.4445495605469" />
+  <position name="LV_Tube001_3" unit="mm" x="577.6403198242188" y="231.4928436279297" z="157.16250610351562" />
+  <position name="LV_Tube001_4" unit="mm" x="570.1417846679688" y="249.39048767089844" z="-155.9051971435547" />
+  <position name="LV_Tube001_5" unit="mm" x="310.0205993652344" y="539.578125" z="-628.6500244140625" />
+  <position name="LV_Tube001_6" unit="mm" x="537.6195678710938" y="313.40472412109375" z="-628.6500244140625" />
+  <position name="LV_Tube001_7" unit="mm" x="438.6479797363281" y="441.41278076171875" z="-356.4445495605469" />
+  <position name="LV_Tube001_8" unit="mm" x="145.5592803955078" y="605.0369873046875" z="-356.4445495605469" />
+  <position name="LV_Tube001_9" unit="mm" x="-3.9100005626678467" y="622.2877197265625" z="-628.6500244140625" />
+  <position name="LV_Tube001_10" unit="mm" x="-184.87599182128906" y="594.2037963867188" z="-356.4445495605469" />
+  <position name="LV_Tube001_11" unit="mm" x="-313.40472412109375" y="537.6195678710938" z="-628.6500244140625" />
+  <position name="LV_Tube001_12" unit="mm" x="-462.5158386230469" y="416.33685302734375" z="-356.4445495605469" />
+  <position name="LV_Tube001_13" unit="mm" x="-539.578125" y="310.0205993652344" z="-628.6500244140625" />
+  <position name="LV_Tube001_14" unit="mm" x="-610.945068359375" y="118.33597564697266" z="-356.4445495605469" />
+  <position name="LV_Tube001_15" unit="mm" x="-622.2877197265625" y="-3.9100005626678467" z="-628.6500244140625" />
+  <position name="LV_Tube001_16" unit="mm" x="-586.1373291015625" y="-209.04623413085938" z="-356.4445495605469" />
+  <position name="LV_Tube001_17" unit="mm" x="-537.6195678710938" y="-313.40472412109375" z="-628.6500244140625" />
+  <position name="LV_Tube001_18" unit="mm" x="-398.6219177246094" y="-477.8680419921875" z="-356.4445495605469" />
+  <position name="LV_Tube001_19" unit="mm" x="-310.0205993652344" y="-539.578125" z="-628.6500244140625" />
+  <position name="LV_Tube001_20" unit="mm" x="-97.02185821533203" y="-614.690185546875" z="-356.4445495605469" />
+  <position name="LV_Tube001_21" unit="mm" x="3.9100005626678467" y="-622.2877197265625" z="-628.6500244140625" />
+  <position name="LV_Tube001_22" unit="mm" x="227.85057067871094" y="-579.086669921875" z="-356.4445495605469" />
+  <position name="LV_Tube001_23" unit="mm" x="313.40472412109375" y="-537.6195678710938" z="-628.6500244140625" />
+  <position name="LV_Tube001_24" unit="mm" x="432.13720703125" y="-447.7886962890625" z="-256.17486572265625" />
+  <position name="LV_Tube001_25" unit="mm" x="568.4161987304688" y="-268.5215759277344" z="-628.6500244140625" />
+  <position name="LV_Tube001_26" unit="mm" x="628.0829467773438" y="26.69571304321289" z="-628.6500244140625" />
+  <position name="LV_Tube001_27" unit="mm" x="616.1906127929688" y="-124.53900909423828" z="-356.4445495605469" />
+  <position name="LV_Tube001_28" unit="mm" x="523.536376953125" y="-348.00933837890625" z="-356.4445495605469" />
+  <position name="LV_Tube001_29" unit="mm" x="337.6456298828125" y="530.2794189453125" z="628.6500244140625" />
+  <position name="LV_Tube001_30" unit="mm" x="545.5545043945312" y="312.36370849609375" z="628.6500244140625" />
+  <position name="LV_Tube001_31" unit="mm" x="545.5545043945312" y="312.36370849609375" z="314.32501220703125" />
+  <position name="LV_Tube001_32" unit="mm" x="628.0829467773438" y="26.69571304321289" z="628.6500244140625" />
+  <position name="LV_Tube001_33" unit="mm" x="200.78614807128906" y="595.722900390625" z="356.4445495605469" />
+  <position name="LV_Tube001_34" unit="mm" x="52.23445510864258" y="626.4761352539062" z="628.6500244140625" />
+  <position name="LV_Tube001_35" unit="mm" x="-108.2666015625" y="619.2569580078125" z="356.4445495605469" />
+  <position name="LV_Tube001_36" unit="mm" x="-245.16648864746094" y="578.8732299804688" z="628.6500244140625" />
+  <position name="LV_Tube001_37" unit="mm" x="-390.3983154296875" y="492.7372131347656" z="356.4445495605469" />
+  <position name="LV_Tube001_38" unit="mm" x="-486.2925720214844" y="398.3972473144531" z="628.6500244140625" />
+  <position name="LV_Tube001_39" unit="mm" x="-577.8280639648438" y="247.61976623535156" z="356.4445495605469" />
+  <position name="LV_Tube001_40" unit="mm" x="-615.7963256835938" y="126.47421264648438" z="628.6500244140625" />
+  <position name="LV_Tube001_41" unit="mm" x="-626.0977783203125" y="-56.589874267578125" z="356.4445495605469" />
+  <position name="LV_Tube001_42" unit="mm" x="-603.9517822265625" y="-174.47938537597656" z="628.6500244140625" />
+  <position name="LV_Tube001_43" unit="mm" x="-524.337646484375" y="-346.8009338378906" z="356.4445495605469" />
+  <position name="LV_Tube001_44" unit="mm" x="-453.4777526855469" y="-435.3834533691406" z="628.6500244140625" />
+  <position name="LV_Tube001_45" unit="mm" x="-297.4813232421875" y="-553.8101806640625" z="356.4445495605469" />
+  <position name="LV_Tube001_46" unit="mm" x="-198.91363525390625" y="-596.3507080078125" z="628.6500244140625" />
+  <position name="LV_Tube001_47" unit="mm" x="-0.0200240109115839" y="-628.6500244140625" z="356.4445495605469" />
+  <position name="LV_Tube001_48" unit="mm" x="101.30860137939453" y="-620.4332275390625" z="628.6500244140625" />
+  <position name="LV_Tube001_49" unit="mm" x="297.1368713378906" y="-553.9950561523438" z="356.4445495605469" />
+  <position name="LV_Tube001_50" unit="mm" x="378.2767333984375" y="-502.1031188964844" z="628.6500244140625" />
+  <position name="LV_Tube001_51" unit="mm" x="523.536376953125" y="-348.00933837890625" z="356.4445495605469" />
+  <position name="LV_Tube001_52" unit="mm" x="568.4161987304688" y="-268.5215759277344" z="628.6500244140625" />
+  <position name="LV_Tube001_53" unit="mm" x="625.7981567382812" y="-59.81241226196289" z="356.4445495605469" />
+  <position name="LV_Tube001_54" unit="mm" x="545.5545043945312" y="312.36370849609375" z="1.2573000192642212" />
+  <position name="LV_Tube001_55" unit="mm" x="281.83050537109375" y="561.936279296875" z="-42.11954879760742" />
+  <position name="LV_Tube001_56" unit="mm" x="545.5545043945312" y="312.36370849609375" z="-628.6500244140625" />
+  <position name="LV_Tube001_57" unit="mm" x="545.5545043945312" y="312.36370849609375" z="-313.06768798828125" />
+  <position name="LV_Tube001_58" unit="mm" x="624.7551879882812" y="69.8698959350586" z="-155.9051971435547" />
+  <position name="LV_Tube001_59" unit="mm" x="337.6456298828125" y="530.2794189453125" z="-628.6500244140625" />
+  <position name="LV_Tube001_60" unit="mm" x="200.78614807128906" y="595.722900390625" z="-356.4445495605469" />
+  <position name="LV_Tube001_61" unit="mm" x="378.2767333984375" y="-502.1031188964844" z="-628.6500244140625" />
+  <position name="LV_Tube001_62" unit="mm" x="297.1368713378906" y="-553.9950561523438" z="-356.4445495605469" />
+  <position name="LV_Tube001_63" unit="mm" x="101.30860137939453" y="-620.4332275390625" z="-628.6500244140625" />
+  <position name="LV_Tube001_64" unit="mm" x="-0.0200240109115839" y="-628.6500244140625" z="-356.4445495605469" />
+  <position name="LV_Tube001_65" unit="mm" x="-198.91363525390625" y="-596.3507080078125" z="-628.6500244140625" />
+  <position name="LV_Tube001_66" unit="mm" x="-297.4813232421875" y="-553.8101806640625" z="-356.4445495605469" />
+  <position name="LV_Tube001_67" unit="mm" x="-453.4777526855469" y="-435.3834533691406" z="-628.6500244140625" />
+  <position name="LV_Tube001_68" unit="mm" x="-524.337646484375" y="-346.8009338378906" z="-356.4445495605469" />
+  <position name="LV_Tube001_69" unit="mm" x="-603.9517822265625" y="-174.47938537597656" z="-628.6500244140625" />
+  <position name="LV_Tube001_70" unit="mm" x="-626.0977783203125" y="-56.589874267578125" z="-356.4445495605469" />
+  <position name="LV_Tube001_71" unit="mm" x="-615.7963256835938" y="126.47421264648438" z="-628.6500244140625" />
+  <position name="LV_Tube001_72" unit="mm" x="-577.8280639648438" y="247.61976623535156" z="-356.4445495605469" />
+  <position name="LV_Tube001_73" unit="mm" x="-486.2925720214844" y="398.3972473144531" z="-628.6500244140625" />
+  <position name="LV_Tube001_74" unit="mm" x="-390.3983154296875" y="492.7372131347656" z="-356.4445495605469" />
+  <position name="LV_Tube001_75" unit="mm" x="-245.16648864746094" y="578.8732299804688" z="-628.6500244140625" />
+  <position name="LV_Tube001_76" unit="mm" x="-108.2666015625" y="619.2569580078125" z="-356.4445495605469" />
+  <position name="LV_Tube001_77" unit="mm" x="52.23445510864258" y="626.4761352539062" z="-628.6500244140625" />
+  <position name="LV_Tube001_78" unit="mm" x="-257.23236083984375" y="573.6134033203125" z="84.23912048339844" />
+  <position name="LV_Tube001_79" unit="mm" x="-505.06109619140625" y="374.3182067871094" z="84.23912048339844" />
+  <position name="LV_Tube001_80" unit="mm" x="-623.4505615234375" y="80.68614959716797" z="84.23912048339844" />
+  <position name="LV_Tube001_81" unit="mm" x="-584.1771240234375" y="-232.24539184570312" z="84.23912048339844" />
+  <position name="LV_Tube001_82" unit="mm" x="-398.7116394042969" y="-486.03485107421875" z="84.23912048339844" />
+  <position name="LV_Tube001_83" unit="mm" x="-114.49722290039062" y="-618.13525390625" z="84.23912048339844" />
+  <position name="LV_Tube001_84" unit="mm" x="197.37673950195312" y="-596.8611450195312" z="84.23912048339844" />
+  <position name="LV_Tube001_85" unit="mm" x="459.93475341796875" y="-428.5566711425781" z="84.23912048339844" />
+  <position name="LV_Tube001_86" unit="mm" x="581.134033203125" y="-239.7583770751953" z="33.47529983520508" />
+  <position name="LV_Tube001_87" unit="mm" x="62.29252243041992" y="625.55615234375" z="0.0" />
+  <position name="LV_Tube001_88" unit="mm" x="537.6195678710938" y="313.40472412109375" z="628.6500244140625" />
+  <position name="LV_Tube001_89" unit="mm" x="622.2999877929688" y="-1.5241954020531884e-13" z="628.6500244140625" />
+  <position name="LV_Tube001_90" unit="mm" x="622.2999877929688" y="-1.5241954020531884e-13" z="-628.6500244140625" />
+  <position name="LV_Tube001_91" unit="mm" x="539.578125" y="-310.0205993652344" z="628.6500244140625" />
+  <position name="LV_Tube001_92" unit="mm" x="622.2999877929688" y="-1.5241954020531884e-13" z="-313.06768798828125" />
+  <position name="LV_Tube001_93" unit="mm" x="539.578125" y="-310.0205993652344" z="-628.6500244140625" />
+  <position name="LV_Tube001_94" unit="mm" x="570.1417846679688" y="-249.39048767089844" z="-155.9051971435547" />
+  <position name="LV_Tube001_95" unit="mm" x="438.6479797363281" y="441.41278076171875" z="356.4445495605469" />
+  <position name="LV_Tube001_96" unit="mm" x="313.40472412109375" y="-537.6195678710938" z="628.6500244140625" />
+  <position name="LV_Tube001_97" unit="mm" x="227.85057067871094" y="-579.086669921875" z="356.4445495605469" />
+  <position name="LV_Tube001_98" unit="mm" x="3.9100005626678467" y="-622.2877197265625" z="628.6500244140625" />
+  <position name="LV_Tube001_99" unit="mm" x="-97.02185821533203" y="-614.690185546875" z="356.4445495605469" />
+  <position name="LV_Tube001_100" unit="mm" x="-310.0205993652344" y="-539.578125" z="628.6500244140625" />
+  <position name="LV_Tube001_101" unit="mm" x="-398.6219177246094" y="-477.8680419921875" z="356.4445495605469" />
+  <position name="LV_Tube001_102" unit="mm" x="-537.6195678710938" y="-313.40472412109375" z="628.6500244140625" />
+  <position name="LV_Tube001_103" unit="mm" x="-586.1373291015625" y="-209.04623413085938" z="356.4445495605469" />
+  <position name="LV_Tube001_104" unit="mm" x="-622.2877197265625" y="-3.9100005626678467" z="628.6500244140625" />
+  <position name="LV_Tube001_105" unit="mm" x="-610.945068359375" y="118.33597564697266" z="356.4445495605469" />
+  <position name="LV_Tube001_106" unit="mm" x="-539.578125" y="310.0205993652344" z="628.6500244140625" />
+  <position name="LV_Tube001_107" unit="mm" x="-462.5158386230469" y="416.33685302734375" z="356.4445495605469" />
+  <position name="LV_Tube001_108" unit="mm" x="-313.40472412109375" y="537.6195678710938" z="628.6500244140625" />
+  <position name="LV_Tube001_109" unit="mm" x="-184.87599182128906" y="594.2037963867188" z="356.4445495605469" />
+  <position name="LV_Tube001_110" unit="mm" x="-3.9100005626678467" y="622.2877197265625" z="628.6500244140625" />
+  <position name="LV_Tube001_111" unit="mm" x="145.5592803955078" y="605.0369873046875" z="356.4445495605469" />
+  <position name="LV_Tube001_112" unit="mm" x="310.0205993652344" y="539.578125" z="628.6500244140625" />
+  <position name="LV_Tube001_113" unit="mm" x="523.9799194335938" y="335.71173095703125" z="-275.67596435546875" />
+  <position name="LV_Tube001_114" unit="mm" x="-20.39094352722168" y="621.9658203125" z="84.23912048339844" />
+  <position name="LV_Tube001_115" unit="mm" x="316.5635986328125" y="535.765625" z="84.23912048339844" />
+  <position name="LV_Tube001_116" unit="mm" x="-557.0284423828125" y="277.446533203125" z="84.23912048339844" />
+  <position name="LV_Tube001_117" unit="mm" x="-619.6917724609375" y="-56.9154052734375" z="84.23912048339844" />
+  <position name="LV_Tube001_118" unit="mm" x="-498.3147888183594" y="-372.7461242675781" z="84.23912048339844" />
+  <position name="LV_Tube001_119" unit="mm" x="-227.13900756835938" y="-579.3661499023438" z="84.23912048339844" />
+  <position name="LV_Tube001_120" unit="mm" x="106.6402587890625" y="-613.0947265625" z="84.23912048339844" />
+  <position name="LV_Tube001_121" unit="mm" x="360.48406982421875" y="-507.2558898925781" z="50.13483810424805" />
+  <position name="LV_Tube001_122" unit="mm" x="-336.1393127441406" y="523.7056884765625" z="84.23912048339844" />
+  </define>
+<materials />
+<solids>
+    <tube name="Tube" rmin="5.0" rmax="10.0" startphi="0.52" deltaphi="6.283185307179586" aunit="rad" z="10.0" lunit="mm" />
+  <tube name="Tube001" rmin="5.0" rmax="8.0" startphi="0.52" deltaphi="1.57" aunit="rad" z="10.0" lunit="mm" />
+  <tessellated name="LV_Tube001">
+      <triangular vertex1="LV_Tube001_0" vertex2="LV_Tube001_1" vertex3="LV_Tube001_2" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_1" vertex2="LV_Tube001_0" vertex3="LV_Tube001_3" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_1" vertex2="LV_Tube001_3" vertex3="LV_Tube001_4" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_5" vertex2="LV_Tube001_6" vertex3="LV_Tube001_7" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_5" vertex2="LV_Tube001_7" vertex3="LV_Tube001_8" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_9" vertex2="LV_Tube001_5" vertex3="LV_Tube001_8" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_9" vertex2="LV_Tube001_8" vertex3="LV_Tube001_10" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_11" vertex2="LV_Tube001_9" vertex3="LV_Tube001_10" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_11" vertex2="LV_Tube001_10" vertex3="LV_Tube001_12" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_13" vertex2="LV_Tube001_11" vertex3="LV_Tube001_12" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_13" vertex2="LV_Tube001_12" vertex3="LV_Tube001_14" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_15" vertex2="LV_Tube001_13" vertex3="LV_Tube001_14" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_15" vertex2="LV_Tube001_14" vertex3="LV_Tube001_16" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_17" vertex2="LV_Tube001_15" vertex3="LV_Tube001_16" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_17" vertex2="LV_Tube001_16" vertex3="LV_Tube001_18" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_19" vertex2="LV_Tube001_17" vertex3="LV_Tube001_18" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_19" vertex2="LV_Tube001_18" vertex3="LV_Tube001_20" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_21" vertex2="LV_Tube001_19" vertex3="LV_Tube001_20" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_21" vertex2="LV_Tube001_20" vertex3="LV_Tube001_22" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_23" vertex2="LV_Tube001_21" vertex3="LV_Tube001_22" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_23" vertex2="LV_Tube001_22" vertex3="LV_Tube001_24" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_25" vertex2="LV_Tube001_26" vertex3="LV_Tube001_27" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_25" vertex2="LV_Tube001_27" vertex3="LV_Tube001_28" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_29" vertex2="LV_Tube001_30" vertex3="LV_Tube001_31" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_30" vertex2="LV_Tube001_32" vertex3="LV_Tube001_31" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_29" vertex2="LV_Tube001_31" vertex3="LV_Tube001_33" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_34" vertex2="LV_Tube001_29" vertex3="LV_Tube001_33" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_34" vertex2="LV_Tube001_33" vertex3="LV_Tube001_35" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_36" vertex2="LV_Tube001_34" vertex3="LV_Tube001_35" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_36" vertex2="LV_Tube001_35" vertex3="LV_Tube001_37" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_38" vertex2="LV_Tube001_36" vertex3="LV_Tube001_37" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_38" vertex2="LV_Tube001_37" vertex3="LV_Tube001_39" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_40" vertex2="LV_Tube001_38" vertex3="LV_Tube001_39" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_40" vertex2="LV_Tube001_39" vertex3="LV_Tube001_41" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_42" vertex2="LV_Tube001_40" vertex3="LV_Tube001_41" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_42" vertex2="LV_Tube001_41" vertex3="LV_Tube001_43" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_44" vertex2="LV_Tube001_42" vertex3="LV_Tube001_43" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_44" vertex2="LV_Tube001_43" vertex3="LV_Tube001_45" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_46" vertex2="LV_Tube001_44" vertex3="LV_Tube001_45" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_46" vertex2="LV_Tube001_45" vertex3="LV_Tube001_47" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_48" vertex2="LV_Tube001_46" vertex3="LV_Tube001_47" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_48" vertex2="LV_Tube001_47" vertex3="LV_Tube001_49" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_50" vertex2="LV_Tube001_48" vertex3="LV_Tube001_49" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_50" vertex2="LV_Tube001_49" vertex3="LV_Tube001_51" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_52" vertex2="LV_Tube001_50" vertex3="LV_Tube001_51" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_52" vertex2="LV_Tube001_51" vertex3="LV_Tube001_53" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_32" vertex2="LV_Tube001_52" vertex3="LV_Tube001_53" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_31" vertex2="LV_Tube001_32" vertex3="LV_Tube001_53" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_54" vertex2="LV_Tube001_31" vertex3="LV_Tube001_53" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_31" vertex2="LV_Tube001_54" vertex3="LV_Tube001_55" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_56" vertex2="LV_Tube001_57" vertex3="LV_Tube001_26" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_26" vertex2="LV_Tube001_57" vertex3="LV_Tube001_58" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_57" vertex2="LV_Tube001_54" vertex3="LV_Tube001_58" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_56" vertex2="LV_Tube001_59" vertex3="LV_Tube001_57" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_57" vertex2="LV_Tube001_59" vertex3="LV_Tube001_60" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_61" vertex2="LV_Tube001_25" vertex3="LV_Tube001_28" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_61" vertex2="LV_Tube001_28" vertex3="LV_Tube001_62" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_63" vertex2="LV_Tube001_61" vertex3="LV_Tube001_62" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_63" vertex2="LV_Tube001_62" vertex3="LV_Tube001_64" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_65" vertex2="LV_Tube001_63" vertex3="LV_Tube001_64" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_65" vertex2="LV_Tube001_64" vertex3="LV_Tube001_66" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_67" vertex2="LV_Tube001_65" vertex3="LV_Tube001_66" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_67" vertex2="LV_Tube001_66" vertex3="LV_Tube001_68" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_69" vertex2="LV_Tube001_67" vertex3="LV_Tube001_68" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_69" vertex2="LV_Tube001_68" vertex3="LV_Tube001_70" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_71" vertex2="LV_Tube001_69" vertex3="LV_Tube001_70" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_71" vertex2="LV_Tube001_70" vertex3="LV_Tube001_72" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_73" vertex2="LV_Tube001_71" vertex3="LV_Tube001_72" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_73" vertex2="LV_Tube001_72" vertex3="LV_Tube001_74" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_75" vertex2="LV_Tube001_73" vertex3="LV_Tube001_74" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_75" vertex2="LV_Tube001_74" vertex3="LV_Tube001_76" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_77" vertex2="LV_Tube001_75" vertex3="LV_Tube001_76" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_77" vertex2="LV_Tube001_76" vertex3="LV_Tube001_60" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_59" vertex2="LV_Tube001_77" vertex3="LV_Tube001_60" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_54" vertex2="LV_Tube001_57" vertex3="LV_Tube001_55" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_57" vertex2="LV_Tube001_60" vertex3="LV_Tube001_55" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_58" vertex2="LV_Tube001_54" vertex3="LV_Tube001_53" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_31" vertex2="LV_Tube001_55" vertex3="LV_Tube001_33" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_37" vertex2="LV_Tube001_35" vertex3="LV_Tube001_78" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_39" vertex2="LV_Tube001_37" vertex3="LV_Tube001_79" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_37" vertex2="LV_Tube001_78" vertex3="LV_Tube001_79" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_41" vertex2="LV_Tube001_39" vertex3="LV_Tube001_80" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_39" vertex2="LV_Tube001_79" vertex3="LV_Tube001_80" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_43" vertex2="LV_Tube001_41" vertex3="LV_Tube001_81" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_41" vertex2="LV_Tube001_80" vertex3="LV_Tube001_81" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_45" vertex2="LV_Tube001_43" vertex3="LV_Tube001_82" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_43" vertex2="LV_Tube001_81" vertex3="LV_Tube001_82" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_47" vertex2="LV_Tube001_45" vertex3="LV_Tube001_83" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_45" vertex2="LV_Tube001_82" vertex3="LV_Tube001_83" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_49" vertex2="LV_Tube001_47" vertex3="LV_Tube001_84" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_47" vertex2="LV_Tube001_83" vertex3="LV_Tube001_84" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_51" vertex2="LV_Tube001_49" vertex3="LV_Tube001_85" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_49" vertex2="LV_Tube001_84" vertex3="LV_Tube001_85" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_58" vertex2="LV_Tube001_53" vertex3="LV_Tube001_86" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_33" vertex2="LV_Tube001_55" vertex3="LV_Tube001_87" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_35" vertex2="LV_Tube001_33" vertex3="LV_Tube001_87" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_55" vertex2="LV_Tube001_60" vertex3="LV_Tube001_87" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_26" vertex2="LV_Tube001_58" vertex3="LV_Tube001_27" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_74" vertex2="LV_Tube001_72" vertex3="LV_Tube001_79" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_76" vertex2="LV_Tube001_74" vertex3="LV_Tube001_78" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_60" vertex2="LV_Tube001_76" vertex3="LV_Tube001_87" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_72" vertex2="LV_Tube001_70" vertex3="LV_Tube001_80" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_70" vertex2="LV_Tube001_68" vertex3="LV_Tube001_81" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_68" vertex2="LV_Tube001_66" vertex3="LV_Tube001_82" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_66" vertex2="LV_Tube001_64" vertex3="LV_Tube001_83" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_64" vertex2="LV_Tube001_62" vertex3="LV_Tube001_84" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_62" vertex2="LV_Tube001_28" vertex3="LV_Tube001_85" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_27" vertex2="LV_Tube001_58" vertex3="LV_Tube001_86" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_83" vertex2="LV_Tube001_64" vertex3="LV_Tube001_84" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_82" vertex2="LV_Tube001_66" vertex3="LV_Tube001_83" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_51" vertex2="LV_Tube001_85" vertex3="LV_Tube001_86" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_51" vertex2="LV_Tube001_86" vertex3="LV_Tube001_53" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_35" vertex2="LV_Tube001_87" vertex3="LV_Tube001_78" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_81" vertex2="LV_Tube001_68" vertex3="LV_Tube001_82" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_79" vertex2="LV_Tube001_72" vertex3="LV_Tube001_80" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_76" vertex2="LV_Tube001_78" vertex3="LV_Tube001_87" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_80" vertex2="LV_Tube001_70" vertex3="LV_Tube001_81" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_62" vertex2="LV_Tube001_85" vertex3="LV_Tube001_84" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_27" vertex2="LV_Tube001_86" vertex3="LV_Tube001_28" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_74" vertex2="LV_Tube001_79" vertex3="LV_Tube001_78" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_85" vertex2="LV_Tube001_28" vertex3="LV_Tube001_86" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_30" vertex2="LV_Tube001_29" vertex3="LV_Tube001_88" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_32" vertex2="LV_Tube001_30" vertex3="LV_Tube001_88" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_52" vertex2="LV_Tube001_32" vertex3="LV_Tube001_89" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_89" vertex2="LV_Tube001_32" vertex3="LV_Tube001_88" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_59" vertex2="LV_Tube001_56" vertex3="LV_Tube001_6" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_56" vertex2="LV_Tube001_26" vertex3="LV_Tube001_6" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_26" vertex2="LV_Tube001_25" vertex3="LV_Tube001_90" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_26" vertex2="LV_Tube001_90" vertex3="LV_Tube001_6" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_89" vertex2="LV_Tube001_88" vertex3="LV_Tube001_0" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_91" vertex2="LV_Tube001_89" vertex3="LV_Tube001_0" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_6" vertex2="LV_Tube001_90" vertex3="LV_Tube001_92" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_92" vertex2="LV_Tube001_90" vertex3="LV_Tube001_93" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_92" vertex2="LV_Tube001_93" vertex3="LV_Tube001_94" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_1" vertex2="LV_Tube001_92" vertex3="LV_Tube001_94" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_94" vertex2="LV_Tube001_93" vertex3="LV_Tube001_24" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_93" vertex2="LV_Tube001_23" vertex3="LV_Tube001_24" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_92" vertex2="LV_Tube001_1" vertex3="LV_Tube001_4" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_0" vertex2="LV_Tube001_88" vertex3="LV_Tube001_95" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_96" vertex2="LV_Tube001_91" vertex3="LV_Tube001_2" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_96" vertex2="LV_Tube001_2" vertex3="LV_Tube001_97" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_98" vertex2="LV_Tube001_96" vertex3="LV_Tube001_97" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_98" vertex2="LV_Tube001_97" vertex3="LV_Tube001_99" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_100" vertex2="LV_Tube001_98" vertex3="LV_Tube001_99" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_100" vertex2="LV_Tube001_99" vertex3="LV_Tube001_101" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_102" vertex2="LV_Tube001_100" vertex3="LV_Tube001_101" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_102" vertex2="LV_Tube001_101" vertex3="LV_Tube001_103" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_104" vertex2="LV_Tube001_102" vertex3="LV_Tube001_103" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_104" vertex2="LV_Tube001_103" vertex3="LV_Tube001_105" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_106" vertex2="LV_Tube001_104" vertex3="LV_Tube001_105" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_106" vertex2="LV_Tube001_105" vertex3="LV_Tube001_107" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_108" vertex2="LV_Tube001_106" vertex3="LV_Tube001_107" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_108" vertex2="LV_Tube001_107" vertex3="LV_Tube001_109" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_110" vertex2="LV_Tube001_108" vertex3="LV_Tube001_109" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_110" vertex2="LV_Tube001_109" vertex3="LV_Tube001_111" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_112" vertex2="LV_Tube001_110" vertex3="LV_Tube001_111" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_112" vertex2="LV_Tube001_111" vertex3="LV_Tube001_95" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_88" vertex2="LV_Tube001_112" vertex3="LV_Tube001_95" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_91" vertex2="LV_Tube001_0" vertex3="LV_Tube001_2" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_2" vertex2="LV_Tube001_1" vertex3="LV_Tube001_94" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_6" vertex2="LV_Tube001_92" vertex3="LV_Tube001_113" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_111" vertex2="LV_Tube001_109" vertex3="LV_Tube001_114" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_95" vertex2="LV_Tube001_111" vertex3="LV_Tube001_115" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_111" vertex2="LV_Tube001_114" vertex3="LV_Tube001_115" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_107" vertex2="LV_Tube001_105" vertex3="LV_Tube001_116" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_105" vertex2="LV_Tube001_103" vertex3="LV_Tube001_117" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_105" vertex2="LV_Tube001_117" vertex3="LV_Tube001_116" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_103" vertex2="LV_Tube001_101" vertex3="LV_Tube001_118" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_103" vertex2="LV_Tube001_118" vertex3="LV_Tube001_117" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_101" vertex2="LV_Tube001_99" vertex3="LV_Tube001_119" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_101" vertex2="LV_Tube001_119" vertex3="LV_Tube001_118" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_99" vertex2="LV_Tube001_97" vertex3="LV_Tube001_120" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_99" vertex2="LV_Tube001_120" vertex3="LV_Tube001_119" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_2" vertex2="LV_Tube001_94" vertex3="LV_Tube001_121" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_97" vertex2="LV_Tube001_2" vertex3="LV_Tube001_121" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_94" vertex2="LV_Tube001_24" vertex3="LV_Tube001_121" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_0" vertex2="LV_Tube001_95" vertex3="LV_Tube001_3" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_8" vertex2="LV_Tube001_7" vertex3="LV_Tube001_115" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_7" vertex2="LV_Tube001_6" vertex3="LV_Tube001_113" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_3" vertex2="LV_Tube001_95" vertex3="LV_Tube001_115" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_10" vertex2="LV_Tube001_8" vertex3="LV_Tube001_114" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_14" vertex2="LV_Tube001_12" vertex3="LV_Tube001_116" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_16" vertex2="LV_Tube001_14" vertex3="LV_Tube001_117" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_18" vertex2="LV_Tube001_16" vertex3="LV_Tube001_118" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_20" vertex2="LV_Tube001_18" vertex3="LV_Tube001_119" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_22" vertex2="LV_Tube001_20" vertex3="LV_Tube001_120" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_4" vertex2="LV_Tube001_3" vertex3="LV_Tube001_115" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_109" vertex2="LV_Tube001_107" vertex3="LV_Tube001_122" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_114" vertex2="LV_Tube001_109" vertex3="LV_Tube001_122" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_107" vertex2="LV_Tube001_116" vertex3="LV_Tube001_122" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_10" vertex2="LV_Tube001_114" vertex3="LV_Tube001_122" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_97" vertex2="LV_Tube001_121" vertex3="LV_Tube001_120" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_117" vertex2="LV_Tube001_14" vertex3="LV_Tube001_116" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_118" vertex2="LV_Tube001_16" vertex3="LV_Tube001_117" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_113" vertex2="LV_Tube001_92" vertex3="LV_Tube001_4" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_10" vertex2="LV_Tube001_122" vertex3="LV_Tube001_12" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_116" vertex2="LV_Tube001_12" vertex3="LV_Tube001_122" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_114" vertex2="LV_Tube001_8" vertex3="LV_Tube001_115" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_18" vertex2="LV_Tube001_118" vertex3="LV_Tube001_119" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_20" vertex2="LV_Tube001_119" vertex3="LV_Tube001_120" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_22" vertex2="LV_Tube001_120" vertex3="LV_Tube001_121" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_24" vertex2="LV_Tube001_22" vertex3="LV_Tube001_121" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_113" vertex2="LV_Tube001_4" vertex3="LV_Tube001_115" type="ABSOLUTE" />
+    <triangular vertex1="LV_Tube001_7" vertex2="LV_Tube001_113" vertex3="LV_Tube001_115" type="ABSOLUTE" />
+    </tessellated>
+  </solids>
+<structure>
+    <volume name="LV_LV_Tube001">
+      <materialref ref="G4_A-150_TISSUE" />
+    <solidref ref="LV_Tube001" />
+    <auxiliary auxtype="Color" auxvalue="#80808000" />
+    </volume>
+  <volume name="LV_Tube001">
+      <materialref ref="G4_A-150_TISSUE" />
+    <solidref ref="Tube001" />
+    <auxiliary auxtype="Color" auxvalue="#80808000" />
+    </volume>
+  <volume name="LV_Tube">
+      <materialref ref="G4_A-150_TISSUE" />
+    <solidref ref="Tube" />
+    <physvol name="PV-LV_Tube001">
+        <volumeref ref="LV_Tube001" />
+      </physvol>
+    <physvol name="PV-LV_LV_Tube001">
+        <volumeref ref="LV_LV_Tube001" />
+      </physvol>
+    </volume>
+  </structure>
+<setup name="Default" version="1.0">
+    <world ref="LV_Tube" />
+  </setup>
+</gdml>
