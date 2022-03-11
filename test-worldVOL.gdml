@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='us-ascii'?>
+<gdml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://service-spi.web.cern.ch/service-spi/app/releases/GDML/schema/gdml.xsd">
+  <define>
+    <constant name="HALFPI" value="pi/2." />
+  <constant name="PI" value="1.*pi" />
+  <constant name="TWOPI" value="2.*pi" />
+  <position name="GDMLBox_WorldBox_0" unit="mm" x="-50.0" y="-50.0" z="-50.0" />
+  <position name="GDMLBox_WorldBox_1" unit="mm" x="-50.0" y="-50.0" z="50.0" />
+  <position name="GDMLBox_WorldBox_2" unit="mm" x="-50.0" y="50.0" z="50.0" />
+  <position name="GDMLBox_WorldBox_3" unit="mm" x="-50.0" y="50.0" z="-50.0" />
+  <position name="GDMLBox_WorldBox_4" unit="mm" x="50.0" y="-50.0" z="50.0" />
+  <position name="GDMLBox_WorldBox_5" unit="mm" x="50.0" y="-50.0" z="-50.0" />
+  <position name="GDMLBox_WorldBox_6" unit="mm" x="50.0" y="50.0" z="-50.0" />
+  <position name="GDMLBox_WorldBox_7" unit="mm" x="50.0" y="50.0" z="50.0" />
+  </define>
+<materials />
+<solids>
+    <box name="WorldBox" x="100.0" y="100.0" z="100.0" lunit="mm" />
+  <tessellated name="GDMLBox_WorldBox">
+      <triangular vertex1="GDMLBox_WorldBox_0" vertex2="GDMLBox_WorldBox_1" vertex3="GDMLBox_WorldBox_2" type="ABSOLUTE" />
+    <triangular vertex1="GDMLBox_WorldBox_2" vertex2="GDMLBox_WorldBox_3" vertex3="GDMLBox_WorldBox_0" type="ABSOLUTE" />
+    <triangular vertex1="GDMLBox_WorldBox_4" vertex2="GDMLBox_WorldBox_1" vertex3="GDMLBox_WorldBox_0" type="ABSOLUTE" />
+    <triangular vertex1="GDMLBox_WorldBox_4" vertex2="GDMLBox_WorldBox_5" vertex3="GDMLBox_WorldBox_6" type="ABSOLUTE" />
+    <triangular vertex1="GDMLBox_WorldBox_7" vertex2="GDMLBox_WorldBox_4" vertex3="GDMLBox_WorldBox_6" type="ABSOLUTE" />
+    <triangular vertex1="GDMLBox_WorldBox_0" vertex2="GDMLBox_WorldBox_5" vertex3="GDMLBox_WorldBox_4" type="ABSOLUTE" />
+    <triangular vertex1="GDMLBox_WorldBox_6" vertex2="GDMLBox_WorldBox_3" vertex3="GDMLBox_WorldBox_2" type="ABSOLUTE" />
+    <triangular vertex1="GDMLBox_WorldBox_7" vertex2="GDMLBox_WorldBox_6" vertex3="GDMLBox_WorldBox_2" type="ABSOLUTE" />
+    <triangular vertex1="GDMLBox_WorldBox_0" vertex2="GDMLBox_WorldBox_3" vertex3="GDMLBox_WorldBox_6" type="ABSOLUTE" />
+    <triangular vertex1="GDMLBox_WorldBox_6" vertex2="GDMLBox_WorldBox_5" vertex3="GDMLBox_WorldBox_0" type="ABSOLUTE" />
+    <triangular vertex1="GDMLBox_WorldBox_2" vertex2="GDMLBox_WorldBox_1" vertex3="GDMLBox_WorldBox_4" type="ABSOLUTE" />
+    <triangular vertex1="GDMLBox_WorldBox_7" vertex2="GDMLBox_WorldBox_2" vertex3="GDMLBox_WorldBox_4" type="ABSOLUTE" />
+    </tessellated>
+  </solids>
+<structure>
+    <volume name="LV_GDMLBox_WorldBox">
+      <materialref ref="G4_AIR" />
+    <solidref ref="GDMLBox_WorldBox" />
+    <auxiliary auxtype="Color" auxvalue="#ff9f0000" />
+    </volume>
+  <volume name="worldVOL">
+      <materialref ref="G4_AIR" />
+    <solidref ref="WorldBox" />
+    <physvol name="PV-LV_GDMLBox_WorldBox">
+        <volumeref ref="LV_GDMLBox_WorldBox" />
+      </physvol>
+    </volume>
+  </structure>
+<setup name="Default" version="1.0">
+    <world ref="worldVOL" />
+  </setup>
+</gdml>
